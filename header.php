@@ -32,7 +32,7 @@
 <!-- NAVBAR START -->
 <nav class="navbar navbar-expand-sm navbar-dark ps-4 fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">ischool</a>
+    <a class="navbar-brand fs-2" href="#">ischool</a>
     <span class="navbar-text">Learn and implement</span>
     <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
@@ -46,7 +46,7 @@
           <a class="nav-link" href="course.php">Courses</a>
         </li>
         <li class="nav-item custom-item">
-          <a class="nav-link" href="paymentstatus.php">Payment status</a>
+          <a class="nav-link" href="LoginorSignup.php">Payment status</a>
         </li>
         <?php
           session_start();
@@ -57,7 +57,7 @@
          <li class="nav-item custom-item">
            <a class="nav-link" href="logout.php">Logout</a>
          </li>';
-          }
+          }   
           else{
             echo '<li class="nav-item custom-item">
             <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>

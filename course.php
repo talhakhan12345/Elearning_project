@@ -39,7 +39,7 @@
           Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
         </p>
 
-        <h5>Price <span class="text-decoration-line-through ">3000</span> <i class="fa-solid fa-rupee-sign "></i> '.$row['course_price'].'</h5>
+        <h5>Price <span class="text-decoration-line-through ">3000</span> <i class="fa-solid fa-rupee-sign "></i> '.$row['course_org_price'].'</h5>
 
         <a href="coursedetails.php?id='.$cid.'" class="read-more">
           Enroll Now <span class="sr-only">about this is some title</span>
